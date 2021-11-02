@@ -75,12 +75,28 @@ img {
 
 /* my rules */
 
-:root {
-  --bg-color: #a5a569;
-}
+
 
 @media screen and (max-width:420px) {
-  #lezioni > div {
-    background-color: var(--bg-color);
+
+  .row {
+    width: 100%;
   }
+  
+  #why div,
+  #lezioni div {
+    background-color: #e0e0a9;
+  }
+  
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+  
+
+ 
 }
